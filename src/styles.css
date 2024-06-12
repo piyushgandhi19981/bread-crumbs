@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.example {
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.pokemon-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.pokemon {
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+}
+
+.pokemon a {
+  text-decoration: none;
+}
+
+h3 {
+  color: violet;
+}
+
+.evolution {
+  display: flex;
+}
+
+.evolution-item {
+  margin-right: 4px;
+}
